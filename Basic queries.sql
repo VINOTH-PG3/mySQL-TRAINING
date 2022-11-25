@@ -81,5 +81,23 @@ select *from studentsData;
 /* ADD is used to add  ADDITION COLUMN into the table */
 alter table studentsData add gender VARCHAR(40) after Intial;
 
+update studentsData set gender='MALE' where rollNo=1;
+
+update studentsData set gender='MALE' where rollNo=2;
+
+update studentsData set gender='MALE' where rollNo=4;
+
+update studentsData set gender='MALE' where rollNo=5;
+
+update studentsData set gender='MALE' where rollNo=6;
+
+update studentsData set gender='MALE' where rollNo=7;
+
+update studentsData set gender='MALE' where rollNo=8;
+
+
+
+
+
 
 
